@@ -1,0 +1,74 @@
+/* App.css */
+
+/* General styles for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Header styles */
+.App-header1 {
+  background-color: #007acc;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Form and buttons */
+.quantity {
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff4747;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Employee list styles */
+h2 {
+  margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+  color: #000000;
+  padding: 0;
+}
+
+.employee-item {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.employee-item span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.delete-button, .update-button {
+  padding: 5px 10px;
+  background-color: #ff4747;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Hover effect on buttons */
+.delete-button:hover, .update-button:hover {
+  background-color: #e60000;
+}
